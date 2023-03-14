@@ -59,6 +59,7 @@
       console.log(infoPatient);
       console.log(infoPatient[0]);
       console.log(infoPatient[5]);
+      /* 
       let lastname;
       lastname=prompt("Введите фамилию пациента", lastname);
       console.log(lastname);
@@ -94,6 +95,51 @@
       console.log(gender);
       infoPatient[6]= gender;
       console.log(infoPatient);
+      */
+      var person = {
+        "SNILS 1": ["Иванов","Иван","Иванович", 15,"мая", 1974,"м"],
+        "SNILS 2": ["Сидоров","Сидор","Сидорович", 20,"мая", 1980,"м"],
+        "SNILS 3": ["Петровна","Мария","Ивановна", 1,"июня", 1975,"ж"],
+      };
+      console.log(person);
+      SNILS4="SNILS 4"
+      let lastname;
+      lastname=prompt("Введите фамилию пациента", lastname);
+      //console.log(lastname);
+      infoPatient[0]= lastname;
+      console.log(infoPatient);
+      let firstname;
+      firstname=prompt("Введите имя пациента", firstname);
+      //console.log(firstname);
+      infoPatient[1]= firstname;
+      console.log(infoPatient);
+      let middlename;
+      middlename=prompt("Введите отчество пациента", middlename);
+      //console.log(middlename);
+      infoPatient[2]= middlename;
+      console.log(infoPatient);
+      let date;
+      date=prompt("Введите дату рождения пациента", date);
+      //console.log(date);
+      infoPatient[3]= date;
+      console.log(infoPatient);
+      let month;
+      month=prompt("Введите месяц рождения пациента", month);
+      //console.log(month);
+      infoPatient[4]= month;
+      console.log(infoPatient);
+      let year;
+      year=prompt("Введите год рождения пациента", year);
+      //console.log(year);
+      infoPatient[5]= year;
+      console.log(infoPatient);
+      let gender;
+      gender=prompt("Введите пол пациента", gender);
+      //console.log(gender);
+      infoPatient[6]= gender;
+      console.log(infoPatient);
+      person.SNILS4= infoPatient;
+      console.log(person);
     </script>
 </body>
 
